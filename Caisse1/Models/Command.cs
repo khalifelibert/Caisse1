@@ -13,6 +13,8 @@ namespace Caisse1.Models
         public int ProduitId { get; set; }
         public int Quantity { get; set; } // Quantité de produit demandé dans la commande
 
+
+       // public ICollection<Produit> Produits { get; set; } = new List<Produit>();
         public Produit Produit { get; set; } = null!;
     }
 }
